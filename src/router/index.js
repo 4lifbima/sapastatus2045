@@ -15,31 +15,31 @@ const routes = [
     path: '/',
     name: 'Home',
     component: HomeView,
-    meta: { title: 'Beranda — SAPA STATUS 2045' }
+    meta: { title: 'Beranda - SAPA STATUS 2045' }
   },
   {
     path: '/tentang',
     name: 'Tentang',
     component: TentangView,
-    meta: { title: 'Tentang Program — SAPA STATUS 2045' }
+    meta: { title: 'Tentang Program - SAPA STATUS 2045' }
   },
   {
     path: '/data-gorontalo',
     name: 'DataGorontalo',
     component: DataGorontaloView,
-    meta: { title: 'Data Situasi Gorontalo — SAPA STATUS 2045' }
+    meta: { title: 'Data Situasi Gorontalo - SAPA STATUS 2045' }
   },
   {
     path: '/kenali-hiv',
     name: 'KenaliHiv',
     component: KenaliHivView,
-    meta: { title: 'Kenali HIV & Mitos Fakta — SAPA STATUS 2045' }
+    meta: { title: 'Kenali HIV & Mitos Fakta - SAPA STATUS 2045' }
   },
   {
     path: '/status-check',
     name: 'StatusCheck',
     component: StatusCheckView,
-    meta: { title: 'Status Check Edukatif — SAPA STATUS 2045' }
+    meta: { title: 'Status Check Edukatif - SAPA STATUS 2045' }
   },
   {
     path: '/sapa-navigator',
