@@ -7,7 +7,7 @@
     <section class="relative w-full pt-0 lg:pt-3 sm:px-8">
       
       <!-- Hero Frame Container (Full-bleed aesthetic within the canvas) -->
-      <div class="relative w-full rounded-b-3xl sm:rounded-4xl overflow-hidden min-h-[760px] sm:min-h-[740px] flex flex-col justify-between p-6 sm:p-10 border border-slate-200/60 shadow-sm bg-sky-100">
+      <div class="relative w-full rounded-b-3xl sm:rounded-4xl overflow-hidden min-h-[730px] sm:min-h-[740px] flex flex-col justify-between p-6 sm:p-10 border border-slate-200/60 shadow-sm bg-sky-100">
         
         <!-- Hero Background Photograph (Sky with clouds) -->
         <img
