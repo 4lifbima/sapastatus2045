@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  body {
+    @apply bg-[#4f778a] text-slate-800 antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Custom clean subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f5f9;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+
+  /* Prevent Google Translate banner from pushing fixed navbar */
+  body {
+    top: 0px !important;
+    position: static !important;
+  }
+  .goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+}
+
+/* GTranslate Custom Flag Styles */
+.gtranslate_wrapper a.glink {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+.gtranslate_wrapper a.glink img {
+  border-radius: 9999px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+.gtranslate_wrapper a.glink:hover img {
+  transform: scale(1.15);
+  opacity: 1;
+}
+.gtranslate_wrapper a.gt-current-lang img {
+  outline: 2px solid #10B981;
+  outline-offset: 1px;
+}
